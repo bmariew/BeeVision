@@ -6,7 +6,7 @@ This code creates a Convolutional Neural Network (CNN) that takes in images of B
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
+- [Code Information](#code-information)
 - [Data Sources](#data-sources)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -20,7 +20,22 @@ This project was designed to use various CNNs to help identify key beehive compo
 ## Getting Started
 ## Prerequisites
 ## Installation
-## Usage
+  ```python
+  pip install requirements.txt
+  ```
+## Code Information
+- Images and Annotations.ipynb
+  - This code was used to label the images in a more organized way than manually entering values into a spreadsheet.
+- EDA.ipynb
+  - This code generates visualizations to explore the raw dataset. 
+- Resnet18_model.ipynb
+  - This code runs and evaluates the Resnet18 model. 
+- efficientnet_b0_model.ipynb
+  - This code runs and evaluates the EfficientNetB0 model. 
+- densenet201_model.ipynb
+  - This code runs and evaluates the DenseNet201 model.  
+
+All .py files contain helper functions that are used within the notebooks.
 ## Data Sources
 ### Data Sources
 ~3,000 images from:
@@ -31,7 +46,8 @@ This project was designed to use various CNNs to help identify key beehive compo
 - Mold
 - Chalk Brood
 - Queen (Marked and Unmarked)
-- Honey (Capped and Uncapped)
+- Honey Capped
+- Nectar
 - Drone Brood
 - Worker Brood
 - Eggs
@@ -41,8 +57,6 @@ This project was designed to use various CNNs to help identify key beehive compo
 - Pollen
 - Foul Brood
 - Other
-
-*WE SHOULD RENAME BEE BREAD BACK TO POLLEN, UNCAPPED HONEY TO NECTAR?. ALSO SHOULD REMOVE THE ANNOTATOR COLUMNS FOR THE REPO.*
 
 ### Feature Labeling
 As this dataset was created from scratch, we had to label each component within each image manually. The images can be found in the image folder while the labels for each image can be found in annotations.csv. There is an additional column that provides the quality of the image (H - High, M- Medium, L - Low). Images were marked 'L' for being too small, poorly lit, blurry, etc.
