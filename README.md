@@ -20,6 +20,9 @@ This project was designed to use various pre-trained CNNs to help identify key b
 ```python
   pip install requirements.txt
   ```
+
+
+#ADD DIRECTIONS FOR HOW TO HAVE FOLDERS SET UP BASED ON RELATIVE PATHS
 ## Code Information
 - <b>annotations.ipynb</b>
   - This file was used to label the images in a more organized way than manually entering values into a spreadsheet.
