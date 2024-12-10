@@ -21,20 +21,22 @@ This project was designed to use various pre-trained CNNs to help identify key b
   pip install requirements.txt
   ```
 ## Code Information
-- Images and Annotations.ipynb
-  - This code was used to label the images in a more organized way than manually entering values into a spreadsheet.
-- EDA.ipynb
-  - This code generates visualizations to explore the raw dataset. 
-- Resnet18_model.ipynb
-  - This code runs and evaluates the Resnet18 model. 
-- efficientnet_b0_model.ipynb
-  - This code runs and evaluates the EfficientNetB0 model. 
-- densenet201_model.ipynb
-  - This code runs and evaluates the DenseNet201 model.
-  -<b>helper.py</b>
-  
-
-All .py files contain helper functions that are used within the above notebooks.
+- annotations.ipynb
+  - This file was used to label the images in a more organized way than manually entering values into a spreadsheet.
+- <b>EDA.ipynb</b>
+  - This file generates visualizations to explore the raw dataset. 
+- <b>resnet18_model.ipynb</b>
+  - This file runs and evaluates the Resnet18 model. 
+- <b>efficientnet_b0_model.ipynb</b>
+  - This file runs and evaluates the EfficientNetB0 model. 
+- <b>densenet201_model.ipynb</b>
+  - This file runs and evaluates the DenseNet201 model.
+- <b>helper.py</b>
+  - This file contains functions to help train and evaluate the models.
+- <b>metrics.py</b>
+  - This file contains a collection of functions for computing standard classification evaluation metrics using the 'sklearn.metrics' library. It is designed to take true labels ('y_true') and predicted labels or probabilities ('y_pred' or 'y_prob') as input and return various metrics.
+- <b>plots</b>
+  - This file contains functions for creating various plots to visualize the results of the models.
 
 ## Dataset
 ### Data Sources
