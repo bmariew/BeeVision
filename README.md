@@ -30,7 +30,9 @@ This project was designed to use various pre-trained CNNs to help identify key b
 - efficientnet_b0_model.ipynb
   - This code runs and evaluates the EfficientNetB0 model. 
 - densenet201_model.ipynb
-  - This code runs and evaluates the DenseNet201 model.  
+  - This code runs and evaluates the DenseNet201 model.
+  -<b>helper.py</b>
+  
 
 All .py files contain helper functions that are used within the above notebooks.
 
