@@ -21,7 +21,7 @@ This project was designed to use various pre-trained CNNs to help identify key b
   pip install requirements.txt
   ```
 ## Code Information
-- annotations.ipynb
+- <b>annotations.ipynb</b>
   - This file was used to label the images in a more organized way than manually entering values into a spreadsheet.
 - <b>EDA.ipynb</b>
   - This file generates visualizations to explore the raw dataset. 
