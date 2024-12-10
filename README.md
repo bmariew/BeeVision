@@ -35,7 +35,7 @@ This project was designed to use various pre-trained CNNs to help identify key b
   - This file contains functions to help train and evaluate the models.
 - <b>metrics.py</b>
   - This file contains a collection of functions for computing standard classification evaluation metrics using the 'sklearn.metrics' library. It is designed to take true labels ('y_true') and predicted labels or probabilities ('y_pred' or 'y_prob') as input and return various metrics.
-- <b>plots</b>
+- <b>plots.py</b>
   - This file contains functions for creating various plots to visualize the results of the models.
 
 ## Dataset
