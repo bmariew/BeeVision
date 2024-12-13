@@ -9,7 +9,8 @@ This code uses pre-trained models to create a convolutional neural network (CNN)
 - [Dataset](#dataset)
   - [Data Sources](#data-sources) 
   - [Data Features](#data-features) 
-  - [Data Access Statement](#data-access-statement) 
+  - [Data Access Statement](#data-access-statement)
+  - [Feature Labeling](#feature-labeling)
 
 ## About the Project
 This project was designed to use various pre-trained CNNs to help identify key beehive components within individual hive frame images. One potential use case is helping beekeepers monitor the status of their hive and identify potential health risks to the hive before they happen, giving the keeper an opportunity to provide intervention. Additionally, this model could be used to help beginner beekeepers in learning the different component and learning how to spot those features themselves by submitting an image to this model and getting a list of labels in return.
@@ -20,9 +21,7 @@ This project was designed to use various pre-trained CNNs to help identify key b
 ```python
   pip install requirements.txt
   ```
-
-
-#ADD DIRECTIONS FOR HOW TO HAVE FOLDERS SET UP BASED ON RELATIVE PATHS
+*When running the code, the images should be stored in a folder called "Images".
 ## Code Information
 - <b>annotations.ipynb</b>
   - This file was used to label the images in a more organized way than manually entering values into a spreadsheet.
@@ -64,7 +63,7 @@ This project was designed to use various pre-trained CNNs to help identify key b
   - Foul Brood
   - Other
 ### Data Access Statement
-The dataset used in this project is publicly available and can be downloaded from this repository: BeeVisionImages.zip.
+The dataset used in this project is publicly available for educational use and can be downloaded from this repository: BeeVisionImages.zip.
 
 ### Feature Labeling
 As this dataset was created from scratch, we had to label each component within each image manually. The images can be found in the image folder while the labels for each image can be found in annotations.csv. There is an additional column that provides the quality of the image (H - High, M- Medium, L - Low). Images were marked 'L' for being too small, poorly lit, blurry, etc.
