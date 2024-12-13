@@ -64,7 +64,7 @@ This project was designed to use various pre-trained CNNs to help identify key b
   - Foul Brood
   - Other
 ### Data Access Statement
-The dataset used in this project is publicly available and can be accessed here: #ADD ACCESS INFORMATION
+The dataset used in this project is publicly available and can be downloaded from this repository: BeeVisionImages.zip.
 
 ### Feature Labeling
 As this dataset was created from scratch, we had to label each component within each image manually. The images can be found in the image folder while the labels for each image can be found in annotations.csv. There is an additional column that provides the quality of the image (H - High, M- Medium, L - Low). Images were marked 'L' for being too small, poorly lit, blurry, etc.
