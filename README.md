@@ -5,12 +5,13 @@ This code uses pre-trained models to create a convolutional neural network (CNN)
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [File Path](#file-path)
 - [Code Information](#code-information)
 - [Dataset](#dataset)
   - [Data Sources](#data-sources) 
-  - [Data Features](#data-features) 
-  - [Data Access Statement](#data-access-statement)
+  - [Data Features](#data-features)
   - [Feature Labeling](#feature-labeling)
+  - [Data Access Statement](#data-access-statement)
 
 ## About the Project
 This project was designed to use various pre-trained CNNs to help identify key beehive components within individual hive frame images. One potential use case is helping beekeepers monitor the status of their hive and identify potential health risks to the hive before they happen, giving the keeper an opportunity to provide intervention. Additionally, this model could be used to help beginner beekeepers in learning the different component and learning how to spot those features themselves by submitting an image to this model and getting a list of labels in return.
@@ -18,10 +19,12 @@ This project was designed to use various pre-trained CNNs to help identify key b
 
 ## Getting Started
 ### Prerequisites
-```python
+```bash
   pip install requirements.txt
   ```
-*When running the code, the images should be stored in a folder called "Images".
+### File Path
+When running the code, the images should be stored in a folder called "Images".
+
 ## Code Information
 - <b>annotations.ipynb</b>
   - This file was used to label the images in a more organized way than manually entering values into a spreadsheet.
@@ -43,8 +46,8 @@ This project was designed to use various pre-trained CNNs to help identify key b
 ## Dataset
 ### Data Sources
 ~3,000 images of beehives from various distances and angles collected from:
-1. Google image search for beehive frames with specific components
-2. Local beekeepers
+1. Google image search for beehive frames with specific components (mostly wax moth, mold, chalk brood, and foul brood)
+2. Local amateur beekeepers
 ### Data Features
 - Typical Features
   - Queen (Marked and Unmarked)
@@ -62,11 +65,14 @@ This project was designed to use various pre-trained CNNs to help identify key b
   - Chalk Brood
   - Foul Brood
   - Other
+ 
+### Feature Labeling
+As this dataset was created from scratch, we had to label each component within each image manually. The images can be found in the image folder while the labels for each image can be found in annotations.csv. There is an additional column that provides the quality of the image (H - High, M- Medium, L - Low). Images were marked 'L' for being too small, poorly lit, blurry, etc.
+
 ### Data Access Statement
 The dataset used in this project is publicly available for educational use and can be downloaded from this repository: BeeVisionImages.zip.
 
-### Feature Labeling
-As this dataset was created from scratch, we had to label each component within each image manually. The images can be found in the image folder while the labels for each image can be found in annotations.csv. There is an additional column that provides the quality of the image (H - High, M- Medium, L - Low). Images were marked 'L' for being too small, poorly lit, blurry, etc.
+
 
 
 
