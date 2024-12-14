@@ -1,0 +1,9 @@
+{
+    "transform": "triv_aug",
+    "batch_size": 16,
+    "epochs": 5,
+    "lr": 0.0001,
+    "final_test_loss": 0.2857619822025299,
+    "final_test_ham_acc": 0.87458336353302,
+    "final_test_zero_one_acc": 0.109375
+}

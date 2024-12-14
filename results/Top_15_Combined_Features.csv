@@ -1,0 +1,16 @@
+CombinedFeature,Count,PresentFeatures
+0000000010001000,195,"['Worker Brood', 'Drawn Comb']"
+0000000000001000,147,['Drawn Comb']
+0000011000001000,129,"['Honey Capped', 'Nectar', 'Drawn Comb']"
+0000010000001000,108,"['Honey Capped', 'Drawn Comb']"
+0000010010001000,91,"['Honey Capped', 'Worker Brood', 'Drawn Comb']"
+0000011010001000,89,"['Honey Capped', 'Nectar', 'Worker Brood', 'Drawn Comb']"
+0000000010101000,86,"['Worker Brood', 'Larvae', 'Drawn Comb']"
+0000000010001100,79,"['Worker Brood', 'Drawn Comb', 'Pollen']"
+0000011000000000,69,"['Honey Capped', 'Nectar']"
+0000000010011000,58,"['Worker Brood', 'Queen Cells', 'Drawn Comb']"
+0000000000001100,57,"['Drawn Comb', 'Pollen']"
+0000001000001000,56,"['Nectar', 'Drawn Comb']"
+0000011010001100,51,"['Honey Capped', 'Nectar', 'Worker Brood', 'Drawn Comb', 'Pollen']"
+0000010000000000,51,['Honey Capped']
+0000011000001100,49,"['Honey Capped', 'Nectar', 'Drawn Comb', 'Pollen']"

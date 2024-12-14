@@ -1,0 +1,9 @@
+{
+    "transform": "eb0_transform",
+    "batch_size": 16,
+    "epochs": 10,
+    "lr": 0.0001,
+    "final_test_loss": 0.30976858735084534,
+    "final_test_ham_acc": 0.87479168176651,
+    "final_test_zero_one_acc": 0.10625000298023224
+}

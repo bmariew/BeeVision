@@ -1,0 +1,5 @@
+{
+    "Test Loss": 0.33658512234687804,
+    "Test Hamming Accuracy": 0.860208374261856,
+    "Test Zero-One Accuracy": 0.09375
+}
